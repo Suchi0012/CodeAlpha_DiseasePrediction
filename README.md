@@ -78,3 +78,83 @@ Support Vector Machine (SVM) achieved the highest accuracy of 86.89% and was sel
 Sadia Afrin Suchi
 
 Machine Learning Internship Project - CodeAlpha
+
+## Machine Learning Algorithms Used
+
+This project applies multiple supervised machine learning classification algorithms to predict the possibility of heart disease.
+
+The following models were implemented and evaluated:
+
+| Model | Accuracy |
+|------|----------|
+| Logistic Regression | 85.25% |
+| Random Forest | 83.61% |
+| Support Vector Machine (SVM) | 86.89% |
+| XGBoost | 81.97% |
+
+Among all tested models, **Support Vector Machine (SVM)** achieved the highest accuracy on the test dataset.
+
+---
+
+## Dataset Information
+
+Dataset Used:
+
+- Heart Disease Dataset from UCI Machine Learning Repository
+
+The dataset contains medical information of patients including:
+
+- Age
+- Sex
+- Chest pain type
+- Resting blood pressure
+- Cholesterol level
+- Fasting blood sugar
+- Resting ECG results
+- Maximum heart rate achieved
+- Exercise induced angina
+- ST depression
+- Number of major vessels
+- Thalassemia information
+
+The target variable represents:
+
+- 0 → No heart disease
+- 1 → Presence of heart disease
+
+---
+
+## Project Workflow
+
+The project follows these machine learning steps:
+
+1. Data Collection
+2. Data Exploration and Visualization
+3. Data Preprocessing
+4. Feature Scaling
+5. Dataset Splitting into Training and Testing sets
+6. Model Training
+7. Model Evaluation
+8. Disease Prediction
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+- Jupyter Notebook
+
+---
+
+## Installation
+
+Clone this repository:
+
+```bash
+git clone https://github.com/Suchi0012/CodeAlpha_DiseasePrediction.git
