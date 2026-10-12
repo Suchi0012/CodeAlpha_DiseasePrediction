@@ -152,6 +152,20 @@ The project follows these machine learning steps:
 
 ---
 
+## Model Performance
+
+The performance of different machine learning classification models was evaluated.
+
+| Model | Accuracy |
+|------|----------|
+| Logistic Regression | 85.25% |
+| Random Forest | 83.61% |
+| Support Vector Machine (SVM) | 86.89% |
+| XGBoost | 81.97% |
+
+### Best Performing Model
+SVM achieved the highest accuracy among all tested models and was selected for disease prediction.
+
 ## Installation
 
 Clone this repository:
